@@ -2,7 +2,7 @@ package com.example.StudentManagmentBackend.Entity;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-@Document(collation = "students")
+@Document(collection = "students")
 public class Student {
     @Id
     private String _id;
