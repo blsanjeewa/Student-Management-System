@@ -23,7 +23,7 @@ useEffect(() => {
   async function  Load()
   {
      const result = await axios.get(
-         "http://localhost:8080/api/v1/student/getall");
+         "http://localhost:8080/api/v1/student/getAll");
          setUsers(result.data);
          console.log(result.data);
   }
